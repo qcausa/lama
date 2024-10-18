@@ -1,1 +1,7 @@
-.elementor-1003 .elementor-element.elementor-element-8c08a3d{--display:flex;--background-transition:0.3s;}
+.elementor-1003 .elementor-element.elementor-element-8c08a3d{--display:flex;--align-items:center;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--gap:5px 5px;--background-transition:0.3s;}.elementor-1003 .elementor-element.elementor-element-11367f2{text-align:center;}.elementor-1003 .elementor-element.elementor-element-11367f2 img{width:150px;height:150px;}.elementor-1003 .elementor-element.elementor-element-11367f2 > .elementor-widget-container{padding:8px 8px 8px 8px;border-style:solid;border-width:1px 1px 1px 1px;border-color:var( --e-global-color-accent );}.elementor-1003 .elementor-element.elementor-element-b1ae1ef{text-align:center;}.elementor-1003 .elementor-element.elementor-element-b1ae1ef .elementor-heading-title{color:var( --e-global-color-3197874 );}/* Start custom CSS for container, class: .elementor-element-8c08a3d */.elementor-1003 .elementor-element.elementor-element-8c08a3d{
+    cursor: pointer;
+}
+
+.elementor-1003 .elementor-element.elementor-element-8c08a3d .e-con-inner * {
+    margin: 0px !important;
+}/* End custom CSS */
