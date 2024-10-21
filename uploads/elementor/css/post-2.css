@@ -4,11 +4,3 @@
 /* Start custom CSS for container, class: .elementor-element-1809e98 */.elementor-2 .elementor-element.elementor-element-1809e98{
     background:linear-gradient(to right, var(--e-global-color-cae35c9) 0, var(--e-global-color-cae35c9) 33%,var(--e-global-color-4671584) 33%, var(--e-global-color-4671584) 66%, #fff 66%, #fff 100%);
 }/* End custom CSS */
-/* Start Custom Fonts CSS */@font-face {
-	font-family: 'DIN Condensed';
-	font-style: normal;
-	font-weight: bold;
-	font-display: auto;
-	src: url('http://lama.local/wp-content/uploads/2024/09/DIN-Condensed-Bold.ttf') format('truetype');
-}
-/* End Custom Fonts CSS */
