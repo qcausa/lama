@@ -91,6 +91,8 @@ class Module extends Module_Base {
 	}
 
 	public function filter_loop_query( $query_args, $widget ) {
+		// \BugFu::log( $query_args );
+		// \BugFu::log( $widget );
 		$widget_id = $widget->get_id();
 
 		if ( empty( $this->filters[ $widget_id ] ) ) {
@@ -99,6 +101,9 @@ class Module extends Module_Base {
 
 		/** @var array $filter_types An array containing all of a widget's different filters - e.g. taxonomy, price, rating... */
 		$filter_types = $this->filters[ $widget_id ];
+		// require_once WP_PLUGIN_DIR . '/bugfu-console-debugger/bugfu-console-debugger.php';
+
+		\BugFu::log( $filter_types );
 
 		// TODO: This part is non-generic and should be refactored to allow for multiple types of filters.
 		$query_args['tax_query']['relation'] = $this->query['AND']['relation'];

@@ -60,11 +60,3 @@
 .elementor-7 .elementor-element.elementor-element-67f7bcf .site-logo a span{
     display: none;
 }/* End custom CSS */
-/* Start Custom Fonts CSS */@font-face {
-	font-family: 'DIN Condensed';
-	font-style: normal;
-	font-weight: bold;
-	font-display: auto;
-	src: url('http://lama.local/wp-content/uploads/2024/09/DIN-Condensed-Bold.ttf') format('truetype');
-}
-/* End Custom Fonts CSS */

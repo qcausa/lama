@@ -726,6 +726,7 @@ class BaseFilterFrontendModule extends elementorModules.Module {
    * @return {{baseUrl: string, pageNum: number}|*|DOMStringMap} Base URL and page number for the loop widget.
    */
   getFilterHelperAttributes(filterId) {
+    console.log("getFilterHelperAttributes");
     const filterWidget = document.querySelector('[data-id="' + filterId + '"]');
     if (!filterWidget) {
       return {
